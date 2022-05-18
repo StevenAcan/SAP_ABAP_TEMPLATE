@@ -145,6 +145,8 @@ TYPES: gty_rt_flightdate TYPE RANGE OF sflight-fldate.
 ```
 DATA: grt_flightdate TYPE gty_rt_flightdate.
 ```
+<font color="Red"><b> (For local definition, replace 'G' with 'L').</b></font>
+
 ## Module Mapping
 
 <table>
@@ -303,14 +305,14 @@ DATA: grt_flightdate TYPE gty_rt_flightdate.
 *&---------------------------------------------------------------------*
 *& Program Name (Purchase Order Infor Check)
 *&---------------------------------------------------------------------*
-*& Program ID       : ZSDVNN0001                                       *
+*& Program ID       : ZPGSD_VA01_EHN                                   *
 *& RICEF ID         : EUE0024                                          *
-*& Module             : SD                                             *
-*& Author              : Liu Can(Steven)                               *
+*& Module           : SD                                               *
+*& Author           : Liu Can(Steven)                                  *
 *& Create Date      : 02-Sep-2020                                      *
 *& Request No       : ED1K927957                                       *
 *& Logical DB       : N/A                                              *
-*& Program Type     : Screen Enhancement(executable)                   *
+*& Program Type     : Screen Enhancement                               *
 *& SAP Release      : ERP 6.0(S41909)                                  *
 *& Description      :
 *&---------------------------------------------------------------------*
